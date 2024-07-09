@@ -1,309 +1,387 @@
-        @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            /* font-family: "Azeret Mono", monospace; */
-        }
-        /* banner style start */
-        
-        .banner {
-            /* width: 1440px; */
-            height: 652px;
-            background-image: url("../assets/Hero-bg.png");
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .banner-title {
-            font-family: Azeret Mono;
-            font-size: 48px;
-            font-weight: 800;
-            line-height: 68px;
-            text-align: center;
-            margin-top: 32px;
-            margin-bottom: 24px;
-        }
-        
-        .banner-description {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
-            letter-spacing: 0%;
-            text-align: center;
-            opacity: 0.7;
-            margin-bottom: 32px;
-        }
-        
-        .banner-btn {
-            text-align: center;
-        }
-        
-        .banner-btn-button {
-            color: rgb(255, 255, 255);
-            font-family: Azeret Mono;
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 23px;
-            letter-spacing: 0%;
-            padding: 21px 24px 21px 24px;
-            border-radius: 8px;
-            background: rgb(13, 19, 33);
-        }
-        /* banner style end */
-        /* main content style start */
-        
-        .container {
-            border: 2px solid red;
-            width: 1140px;
-            height: 1395px;
-            left: 148px;
-            right: 152px;
-            margin: 0 auto;
-            border-radius: 16px;
-            background: rgba(13, 19, 33, 0.02);
-            padding: 80px 97px 80px 97px;
-        }
-        
-        .container-title {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 32px;
-            font-weight: 800;
-            line-height: 37px;
-            letter-spacing: 0%;
-            text-align: center;
-            margin-bottom: 24px;
-        }
-        
-        .container-description {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
-            letter-spacing: 0%;
-            text-align: center;
-            opacity: 0.7;
-        }
-        
-        .blog-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            width: 946px;
-            height: 336px;
-            margin: 0 auto;
-            /* gap: 10px; */
-            padding: 48px;
-            border-radius: 16px;
-            background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
-            margin: 32px 0px;
-        }
-        
-        .blog-content {
-            width: 477px;
-            height: 220px;
-            border-radius: 16px;
-            background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
-        }
-        
-        .blog-content-title {
-            color: rgba(13, 19, 33, 0.7);
-            font-family: Azeret Mono;
-            font-size: 18px;
-            font-weight: 700;
-            letter-spacing: 0%;
-            text-align: left;
-            margin-top: 10px;
-            margin-bottom: 16px;
-        }
-        
-        .blog-content-description {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 12px;
-            font-weight: 400;
-            text-align: left;
-            opacity: 0.7;
-            margin-bottom: 32px;
-        }
-        
-        .blog-btn {
-            box-sizing: border-box;
-            border: 1px solid rgb(13, 19, 33);
-            opacity: 0.7;
-            padding: 12px 20px 12px 20px;
-            width: 150px;
-            height: 48px;
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-weight: 700;
-        }
-        
-        .insprition-content {
-            margin-top: 88px;
-            margin-bottom: 150px;
-        }
-        
-        .insprition-content-title {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 32px;
-            font-weight: 800;
-            line-height: 37px;
-            letter-spacing: 0%;
-            text-align: center;
-            margin: 24px 0px;
-        }
-        
-        .insprition-content-description {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
-            letter-spacing: 0%;
-            text-align: center;
-            opacity: 0.7;
-            margin-bottom: 48px;
-        }
-        
-        .video {
-            text-align: center;
-            position: static;
-            width: 945px;
-            height: 614px;
-            flex: none;
-            order: 0;
-            align-self: stretch;
-            flex-grow: 0;
-            margin: 48px 0px;
-            border-radius: 16px;
-            box-sizing: border-box;
-            border: 1px solid rgba(13, 19, 33, 0.2);
-            border-radius: 16px;
-            padding: 32px;
-        }
-        
-        .learning-blog {
-            width: 1140px;
-            height: 460px;
-            margin-left: 5px;
-        }
-        
-        .learning-blog-title {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 32px;
-            font-weight: 800;
-            line-height: 37px;
-            letter-spacing: 0%;
-            text-align: center;
-            margin-bottom: 24px;
-        }
-        
-        .learning-blog-description {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
-            letter-spacing: 0%;
-            text-align: center;
-            opacity: 0.7;
-            margin-bottom: 48px;
-        }
-        
-        .target-content {
-            width: 1140px;
-            height: 299px;
-            display: flex;
-            /* border: 1px solid red; */
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 0px;
-            margin-top: 48px;
-            margin-bottom: 48px;
-            margin-left: -125px;
-            margin-right: 0px;
-        }
-        
-        .target-content-inside-html {
-            width: 364px;
-            height: 299px;
-            /* border: 1px solid green; */
-            padding: 40px;
-            margin: 0px 24px;
-            border-radius: 16px;
-            background: rgba(255, 76, 30, 0.05);
-        }
-        
-        .target-content-inside-css {
-            width: 364px;
-            height: 299px;
-            /* border: 1px solid green; */
-            padding: 40px;
-            margin: 0px 24px;
-            border-radius: 16px;
-            background: rgba(0, 76, 232, 0.05);
-        }
-        
-        .target-content-inside-js {
-            width: 364px;
-            height: 299px;
-            /* border: 1px solid green; */
-            padding: 40px;
-            margin: 0px 24px;
-            border-radius: 16px;
-            background: rgba(255, 223, 0, 0.05);
-        }
-        
-        .target-content-inner {
-            width: 284px;
-            height: 219px;
-            /* border: 1px solid blue; */
-            margin: 32px 0px;
-        }
-        
-        .target-content-title {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 24px;
-            font-weight: 800;
-            line-height: 36px;
-            letter-spacing: 0%;
-            text-align: left;
-            margin-top: 24px;
-        }
-        
-        .target-content-description {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
-            letter-spacing: 0%;
-            text-align: left;
-            opacity: 0.7;
-            margin-top: 8px;
-        }
-        
-        .learn-more {
-            color: rgb(13, 19, 33);
-            font-family: Azeret Mono;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 19px;
-            letter-spacing: 0%;
-            text-align: left;
-            text-decoration-line: underline;
-            margin-top: 24px;
-        }
-        /* main content style end */
+            @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                /* font-family: "Azeret Mono", monospace; */
+            }
+            /* banner style start */
+            
+            .banner {
+                /* width: 1440px; */
+                height: 652px;
+                background-image: url("../assets/Hero-bg.png");
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 74px;
+            }
+            
+            .banner-title {
+                font-family: Azeret Mono;
+                font-size: 48px;
+                font-weight: 800;
+                line-height: 68px;
+                text-align: center;
+                margin-top: 32px;
+                margin-bottom: 24px;
+            }
+            
+            .banner-description {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: center;
+                opacity: 0.7;
+                margin-bottom: 32px;
+            }
+            
+            .banner-btn {
+                text-align: center;
+            }
+            
+            .banner-btn-button {
+                color: rgb(255, 255, 255);
+                font-family: Azeret Mono;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 23px;
+                letter-spacing: 0%;
+                padding: 21px 24px 21px 24px;
+                border-radius: 8px;
+                background: rgb(13, 19, 33);
+            }
+            /* banner style end */
+            /* main content style start */
+            
+            .container {
+                /* border: 2px solid red; */
+                width: 1140px;
+                height: 1395px;
+                left: 148px;
+                right: 152px;
+                margin: 0 auto;
+                border-radius: 16px;
+                background: rgba(13, 19, 33, 0.02);
+                padding: 80px 97px 80px 97px;
+            }
+            
+            .container-title {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 37px;
+                letter-spacing: 0%;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            
+            .container-description {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: center;
+                opacity: 0.7;
+            }
+            
+            .blog-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 946px;
+                height: 336px;
+                margin: 0 auto;
+                /* gap: 10px; */
+                padding: 48px;
+                border-radius: 16px;
+                background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+                margin: 32px 0px;
+            }
+            
+            .blog-content {
+                width: 477px;
+                height: 220px;
+                border-radius: 16px;
+                background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+            }
+            
+            .blog-content-title {
+                color: rgba(13, 19, 33, 0.7);
+                font-family: Azeret Mono;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-top: 10px;
+                margin-bottom: 16px;
+            }
+            
+            .blog-content-description {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 12px;
+                font-weight: 400;
+                text-align: left;
+                opacity: 0.7;
+                margin-bottom: 32px;
+            }
+            
+            .blog-btn {
+                box-sizing: border-box;
+                border: 1px solid rgb(13, 19, 33);
+                opacity: 0.7;
+                padding: 12px 20px 12px 20px;
+                width: 150px;
+                height: 48px;
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-weight: 700;
+            }
+            
+            .insprition-content {
+                margin-top: 88px;
+                margin-bottom: 150px;
+            }
+            
+            .insprition-content-title {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 37px;
+                letter-spacing: 0%;
+                text-align: center;
+                margin: 24px 0px;
+            }
+            
+            .insprition-content-description {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: center;
+                opacity: 0.7;
+                margin-bottom: 48px;
+            }
+            
+            .video {
+                text-align: center;
+                position: static;
+                width: 945px;
+                height: 614px;
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                margin: 48px 0px;
+                border-radius: 16px;
+                box-sizing: border-box;
+                border: 1px solid rgba(13, 19, 33, 0.2);
+                border-radius: 16px;
+                padding: 32px;
+            }
+            
+            .learning-blog {
+                width: 1140px;
+                height: 460px;
+                margin-left: 5px;
+            }
+            
+            .learning-blog-title {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 37px;
+                letter-spacing: 0%;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            
+            .learning-blog-description {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: center;
+                opacity: 0.7;
+                margin-bottom: 48px;
+            }
+            
+            .target-content {
+                width: 1140px;
+                height: 299px;
+                display: flex;
+                /* border: 1px solid red; */
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 0px;
+                margin-top: 48px;
+                margin-bottom: 48px;
+                margin-left: -125px;
+                margin-right: 0px;
+            }
+            
+            .target-content-inside-html {
+                width: 364px;
+                height: 299px;
+                /* border: 1px solid green; */
+                padding: 40px;
+                margin: 0px 24px;
+                border-radius: 16px;
+                background: rgba(255, 76, 30, 0.05);
+            }
+            
+            .target-content-inside-css {
+                width: 364px;
+                height: 299px;
+                /* border: 1px solid green; */
+                padding: 40px;
+                margin: 0px 24px;
+                border-radius: 16px;
+                background: rgba(0, 76, 232, 0.05);
+            }
+            
+            .target-content-inside-js {
+                width: 364px;
+                height: 299px;
+                /* border: 1px solid green; */
+                padding: 40px;
+                margin: 0px 24px;
+                border-radius: 16px;
+                background: rgba(255, 223, 0, 0.05);
+            }
+            
+            .target-content-inner {
+                width: 284px;
+                height: 219px;
+                /* border: 1px solid blue; */
+                margin: 32px 0px;
+            }
+            
+            .target-content-title {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 36px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-top: 24px;
+            }
+            
+            .target-content-description {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: left;
+                opacity: 0.7;
+                margin-top: 8px;
+            }
+            
+            .learn-more {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-decoration-line: underline;
+                margin-top: 24px;
+            }
+            /* contact style start */
+            
+            .contact {
+                /* border: 1px solid red; */
+                width: 1140px;
+                height: 314px;
+                border-radius: 16px;
+                background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url();
+                background-image: url("../assets/handshake.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 45px;
+                margin-bottom: 30px;
+            }
+            
+            .contact-inside {
+                width: 1044px;
+                height: 186px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px;
+            }
+            
+            .contact-title {
+                color: rgb(255, 255, 255);
+                font-family: Azeret Mono;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0%;
+                text-align: center;
+                margin-top: 64px;
+            }
+            
+            .contact-description {
+                color: rgb(255, 255, 255);
+                font-family: Azeret Mono;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: center;
+                opacity: 0.7;
+                margin-top: 16px;
+                margin-bottom: 24px;
+            }
+            
+            .input-form {
+                box-sizing: border-box;
+                border: 1px solid rgba(13, 19, 33, 0.15);
+                /* border-radius: 8px; */
+                /* background: rgb(255, 255, 255); */
+                display: flex;
+            }
+            
+            input[type="text"] {
+                width: 548px;
+                height: 57px;
+                margin-right: 16px;
+                border-radius: 8px;
+                padding: 5px 30px;
+            }
+            
+            input[type="submit"] {
+                margin-left: 15px;
+                width: 120px;
+                height: 58px;
+                color: black;
+                border-radius: 8px;
+                font-size: bold;
+                padding: 5px;
+            }
+            /* contact style end */
+            /* main content style end */
+            /* footer style start */
+            /* footer style end*/
