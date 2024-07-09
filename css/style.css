@@ -61,7 +61,7 @@
             .container {
                 /* border: 2px solid red; */
                 width: 1140px;
-                height: 1395px;
+                /* height: 1395px; */
                 left: 148px;
                 right: 152px;
                 margin: 0 auto;
@@ -384,4 +384,38 @@
             /* contact style end */
             /* main content style end */
             /* footer style start */
+            
+            .footer {
+                /* border: 1px solid red; */
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                height: 100px;
+                border-radius: 16px;
+                background: rgba(13, 19, 33, 0.03);
+                margin-top: 79px;
+            }
+            
+            .footer-title {
+                color: rgb(13, 19, 33);
+                font-family: Azeret Mono;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 23px;
+                letter-spacing: 0%;
+                text-align: center;
+                width: 456px;
+                height: 23px;
+            }
+            /* .footer-socialmedia {} */
+            
+            .fb {
+                padding-right: 6px;
+            }
+            
+            .git {
+                padding-right: 6px;
+            }
+            /* .linkedin {} */
             /* footer style end*/
