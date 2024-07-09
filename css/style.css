@@ -58,6 +58,7 @@
         /* main content style start */
         
         .container {
+            border: 2px solid red;
             width: 1140px;
             height: 1395px;
             left: 148px;
@@ -147,7 +148,6 @@
         
         .insprition-content {
             margin-top: 88px;
-            border: 1px solid red;
             margin-bottom: 150px;
         }
         
@@ -189,5 +189,121 @@
             border: 1px solid rgba(13, 19, 33, 0.2);
             border-radius: 16px;
             padding: 32px;
+        }
+        
+        .learning-blog {
+            width: 1140px;
+            height: 460px;
+            margin-left: 5px;
+        }
+        
+        .learning-blog-title {
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 37px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        
+        .learning-blog-description {
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: center;
+            opacity: 0.7;
+            margin-bottom: 48px;
+        }
+        
+        .target-content {
+            width: 1140px;
+            height: 299px;
+            display: flex;
+            /* border: 1px solid red; */
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0px;
+            margin-top: 48px;
+            margin-bottom: 48px;
+            margin-left: -125px;
+            margin-right: 0px;
+        }
+        
+        .target-content-inside-html {
+            width: 364px;
+            height: 299px;
+            /* border: 1px solid green; */
+            padding: 40px;
+            margin: 0px 24px;
+            border-radius: 16px;
+            background: rgba(255, 76, 30, 0.05);
+        }
+        
+        .target-content-inside-css {
+            width: 364px;
+            height: 299px;
+            /* border: 1px solid green; */
+            padding: 40px;
+            margin: 0px 24px;
+            border-radius: 16px;
+            background: rgba(0, 76, 232, 0.05);
+        }
+        
+        .target-content-inside-js {
+            width: 364px;
+            height: 299px;
+            /* border: 1px solid green; */
+            padding: 40px;
+            margin: 0px 24px;
+            border-radius: 16px;
+            background: rgba(255, 223, 0, 0.05);
+        }
+        
+        .target-content-inner {
+            width: 284px;
+            height: 219px;
+            /* border: 1px solid blue; */
+            margin: 32px 0px;
+        }
+        
+        .target-content-title {
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 36px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-top: 24px;
+        }
+        
+        .target-content-description {
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: left;
+            opacity: 0.7;
+            margin-top: 8px;
+        }
+        
+        .learn-more {
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-decoration-line: underline;
+            margin-top: 24px;
         }
         /* main content style end */
