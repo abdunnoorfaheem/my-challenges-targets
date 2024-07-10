@@ -40,6 +40,11 @@
                 margin-bottom: 32px;
             }
             
+            button a {
+                text-decoration: none;
+                color: white;
+            }
+            
             .banner-btn {
                 text-align: center;
             }
@@ -407,6 +412,7 @@
                 text-align: center;
                 width: 456px;
                 height: 23px;
+                /
             }
             /* .footer-socialmedia {} */
             
